@@ -1,0 +1,39 @@
+.navbar-custom {
+  transition: all 0.3s ease;
+}
+
+.navbar-custom:hover {
+  background-color: #343a40;
+}
+
+.nav-link-custom {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #ff8c00 !important;
+}
+
+.nav-link-custom-active {
+  color: #ff8c00 !important;
+  font-weight: bold;
+}
+
+.navbar-toggler-custom {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-custom:hover {
+  background-color: #ff8c00;
+}
+
+.navbar-brand-custom {
+  color: #ff8c00 !important;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand-custom:hover {
+  color: white !important;
+}

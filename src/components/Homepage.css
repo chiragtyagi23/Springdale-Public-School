@@ -1,0 +1,83 @@
+
+
+.home-page {
+    background-color: #f8f9fa;
+}
+
+/* Introduction Section */
+.intro-section {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.logo-image {
+    width: 350px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.intro-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.intro-text {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+/* Carousel Section */
+.carousel-section {
+    margin-bottom: 30px;
+}
+
+.carousel-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+    bottom: 20%;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+/* Additional Section */
+.additional-section {
+    padding: 30px 0;
+}
+
+.animated-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+/* Footer Section */
+.footer-paragraph:hover {
+    color: white;
+  }
+

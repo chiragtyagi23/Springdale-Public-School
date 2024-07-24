@@ -1,0 +1,41 @@
+/* AboutUs.css */
+
+/* Highlight important headings */
+.highlight {
+    color: #007bff; /* Blue color for highlighting */
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.highlight:hover {
+    color: #0056b3; /* Darker blue on hover */
+    border-bottom-color: #0056b3;
+}
+
+/* Add a subtle shadow and transition effect to paragraphs */
+p {
+    transition: all 0.3s ease;
+}
+
+p:hover {
+    color: #333; /* Darker text color on hover */
+    transform: scale(1.02); /* Slightly increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add spacing and styling for the list items */
+.list-unstyled li {
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.list-unstyled li:hover {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Add padding and margin to the container */
+.container {
+    padding: 2rem;
+}
